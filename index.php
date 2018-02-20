@@ -23,11 +23,11 @@ require 'logic.php';
         <form method='GET' action='index.php'>
             <div class='row-fluid'>
                 <label>Split how many ways?</label>
-                <input type='text' name='splitTerm' value='<?= sanitize($splitTerm) ?>'/>
+                <input type='text' name='splitTerm' placeholder='Required*' value='<?= sanitize($splitTerm) ?>'/>
             </div>
             <div class='row-fluid'>
                 <label>How much was the tab?</label>
-                <input type='text' name='billAmount' value='<?= sanitize($billAmount) ?>'/>
+                <input type='text' name='billAmount' placeholder='Required*' value='<?= sanitize($billAmount) ?>'/>
             </div>
 
             <div class='row-fluid'>

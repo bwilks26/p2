@@ -63,3 +63,8 @@ input[type=submit]:hover {
     margin: auto;
     padding-top: 10px;
 }
+
+.required {
+    font-size: 15px;
+    color: red;
+}
